@@ -1,5 +1,19 @@
-<h1>Show Advert</h1>
-
-<h3><%= @advert.title %></h3>
-<h5>submitted <%= time_ago_in_words(@advert.created_at) %> ago</h5>
-<p><%= @advert.description %></p>
+<div class="column-12-12 advert-show clear-padding">
+  <div class="column-6-12">
+    <img src="assets/11.jpg" alt="">
+  </div>
+  <div class="column-6-12">
+    <h4 class="number">R 300.00</h4>
+    <h3><%= @advert.title %></h3>
+    <h5>submitted <%= time_ago_in_words(@advert.created_at) %> ago</h5>
+    <p>Randburg, Johannesburg</p>
+    <p>Evert Bean - 071346728</p>
+    <hr>
+    <h4>Description</h4>
+    <p><%= @advert.description %></p>
+    <a href="#" class="button">Call Evert</a>
+  </div>
+</div>
+<hr>
+<h4>Comments</h4>
+</div>

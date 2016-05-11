@@ -1,6 +1,14 @@
-<h1>Index Adverts</h1>
-
 <% @adverts.each do |advert| %>
-     <%= link_to advert.title, advert %>
-     <% advert.created_at.strftime("%B, %d, %Y") %>
+  <div class="column-4-12 advert">
+    <img src="assets/11.jpg" alt="">
+    <h4><%= link_to advert.title, advert %></h4>
+    <h5><% advert.created_at.strftime("%B, %d, %Y") %></h5>
+    <p>Randburg, Johannesburg</p>
+    <p>Evert Bean - 071346728</p>
+    <a href="#" class="button">View</a>
+    <span class="price">
+      <span class="text">Asking Price</span><br>
+      <span class="number">R 300.00</span>
+    </span>
+  </div>
 <% end %>
