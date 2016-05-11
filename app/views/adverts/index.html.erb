@@ -1,0 +1,6 @@
+<h1>Index Adverts</h1>
+
+<% @adverts.each do |advert| %>
+     <%= link_to advert.title, advert %>
+     <% advert.created_at.strftime("%B, %d, %Y") %>
+<% end %>

@@ -1,0 +1,5 @@
+<h1>Show Advert</h1>
+
+<h3><%= @advert.title %></h3>
+<h5>submitted <%= time_ago_in_words(@advert.created_at) %> ago</h5>
+<p><%= @advert.description %></p>
