@@ -14,4 +14,11 @@
  *= require_self
  */
 
-@import 'sutairu'
+ @import 'reset';
+ @import 'config';
+ @import 'mixins';
+ @import 'grid';
+ @import 'typography';
+ @import 'ui';
+ @import 'utilities';
+ @import 'custom';
