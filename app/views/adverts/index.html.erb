@@ -1,6 +1,6 @@
 <% @adverts.each do |advert| %>
   <div class="column-4-12 advert">
-    <img src="assets/11.jpg" alt="">
+    <img image-url="assets/11.jpg" alt="">
     <h4><%= link_to advert.title, advert %></h4>
     <h5><% advert.created_at.strftime("%B, %d, %Y") %></h5>
     <p>Randburg, Johannesburg</p>
