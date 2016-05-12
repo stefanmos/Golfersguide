@@ -13,12 +13,3 @@
  *= require_tree .
  *= require_self
  */
-
-*= reset
-*= config
-*= mixins
-*= grid
-*= typography
-*= ui
-*= utilities
-*= custom
